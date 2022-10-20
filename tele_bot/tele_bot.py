@@ -10,6 +10,16 @@ def start(message):
 
 
 
+@bot.message_handler(content_types=['text'])
+def start(message):
+    print('Получил текст')
+    bot.send_message(message.chat.id, message.text)
+    if message.text == 'жопа':
+        print('Пизда рулю')
+        int('жопа')
+
+
+
 
 
 
