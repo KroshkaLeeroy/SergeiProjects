@@ -1,6 +1,6 @@
 import telebot
 
-
+# ;jgf
 bot = telebot.TeleBot('5221618050:AAHpT9tpjRbWzVh0yZ_7K3TSGDSUY35gfCo')
 
 
