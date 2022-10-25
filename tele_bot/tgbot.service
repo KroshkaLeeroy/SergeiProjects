@@ -9,6 +9,8 @@ Group=n
 WorkingDirectory=/home/n/SergeiProjects/
 Environment="PYTHONPATH=/home/n/SergeiProjects/"
 ExecStart=/home/n/SergeiProjects/.venv/bin/python /home/n/SergeiProjects/tele_bot/tele_bot.py
+RestartSec=10
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
